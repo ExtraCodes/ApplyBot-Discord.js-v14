@@ -1,8 +1,0 @@
-{
-  "run": {
-    "type": "file",
-    "file": "",
-    "ignoreCurrent": true,
-    "task": "npm/install"
-  }
-}
