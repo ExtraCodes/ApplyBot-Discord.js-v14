@@ -1,0 +1,1 @@
+require("./ApplyBot test/index.js");
