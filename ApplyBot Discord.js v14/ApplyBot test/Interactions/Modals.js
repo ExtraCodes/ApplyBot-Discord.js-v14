@@ -1,4 +1,4 @@
-const Config = require("../../../Database/Schema/Apply.js");
+const Config = require("../Database/Schema/Apply.js");
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, StringSelectMenuBuilder } = require('discord.js');
 
 async function Modals(interaction, client) {

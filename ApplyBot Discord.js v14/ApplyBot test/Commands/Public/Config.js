@@ -1,5 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ChannelType } = require('discord.js');
-const Config = require("../../../../Database/Schema/Apply.js");
+const Config = require("../../Database/Schema/Apply");
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('set')

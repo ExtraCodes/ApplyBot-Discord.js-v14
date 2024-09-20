@@ -1,9 +1,10 @@
 const { REST, Routes } = require('discord.js');
 const fs = require('node:fs');
 const path = require('node:path');
+require('./Database/Connections.js');
 const { Client, Events, GatewayIntentBits, EmbedBuilder, ActionRowBuilder, ButtonBuilder, StringSelectMenuBuilder, ModalBuilder, TextInputBuilder, Collection, Partials, InteractionType } = require('discord.js');
   const data = {
-    token: "token bot here",
+    token: "",
     prefix: "r",
     botID: ""
   }

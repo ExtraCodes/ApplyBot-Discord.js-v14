@@ -1,5 +1,5 @@
 const { EmbedBuilder, ButtonBuilder, ActionRowBuilder, ModalBuilder, TextInputBuilder, StringSelectMenuBuilder, ComponentType } = require('discord.js');
-const Config = require("../../../Database/Schema/Apply.js");
+const Config = require("../Database/Schema/Apply.js");
 
 async function Buttons(interaction, client) {
   if (interaction.customId === "apply") {
